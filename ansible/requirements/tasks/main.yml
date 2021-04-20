@@ -1,0 +1,6 @@
+---
+  
+  - include_tasks: git.yaml
+  - include_tasks: maven.yaml
+  - include_tasks: java.yaml
+  #- include_tasks: docker.yaml

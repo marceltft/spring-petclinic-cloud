@@ -1,0 +1,6 @@
+---
+    - name: Install Git
+      apt:
+        name: maven
+        state: present
+      

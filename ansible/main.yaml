@@ -1,0 +1,10 @@
+---
+  - name: Playbook to install Git
+    hosts: all
+    become: true
+    roles:
+    - requirements
+    - docker
+    - minikube
+    #-petclinic
+    

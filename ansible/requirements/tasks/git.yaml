@@ -1,0 +1,10 @@
+---
+      - name: Install Git
+        apt:
+          name: git
+          state: present
+      - name: Clone repository.
+        git:
+          repo: 'https://github.com/marceltft/spring-petclinic-cloud.git'
+          dest: /opt/spring-petclinic-cloud
+          version: master   
